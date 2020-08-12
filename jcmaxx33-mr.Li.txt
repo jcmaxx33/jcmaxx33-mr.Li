@@ -1,0 +1,122 @@
+Configuration	jcmaxx33-mr.Li
+STM32CubeMX 	6.0.0
+Date	08/12/2020
+MCU	STM32F100C8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DAC	DAC_OUT1	DAC_OUT1	PA4
+DAC	DAC_OUT2	DAC_OUT2	PA5
+SPI2	Full-Duplex Master	SPI2_MISO	PB14
+SPI2	Full-Duplex Master	SPI2_MOSI	PB15
+SPI2	Full-Duplex Master	SPI2_SCK	PB13
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	TIM2	SYS_VS_tim2	VP_SYS_VS_tim2
+TIM1	External Clock Mode 1	TIM1_VS_ControllerModeClock	VP_TIM1_VS_ControllerModeClock
+TIM1	TI1_ED	TIM1_CH1	PA8
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PD0-OSC_IN	GPIO_Output	
+10	PA0-WKUP	GPIO_Output	
+11	PA1	GPIO_Output	
+12	PA2	GPIO_Output	
+13	PA3	GPIO_Output	
+14	PA4	DAC_OUT1	
+15	PA5	DAC_OUT2	
+16	PA6	GPIO_Output	
+17	PA7	GPIO_Output	
+18	PB0	GPIO_Output	
+19	PB1	GPIO_Output	
+20	PB2	GPIO_Input	
+21	PB10	GPIO_Input	
+22	PB11	GPIO_Input	
+26	PB13	SPI2_SCK	
+27	PB14	SPI2_MISO	
+28	PB15	SPI2_MOSI	
+29	PA8	TIM1_CH1	
+30	PA9	USART1_TX	
+31	PA10	USART1_RX	
+32	PA11	GPIO_Output	
+33	PA12	GPIO_Output	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+39	PB3	GPIO_Output	
+45	PB8	GPIO_Input	
+46	PB9	GPIO_Input	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DAC	DAC_OUT1	DAC_OUT1	PA4
+DAC	DAC_OUT2	DAC_OUT2	PA5
+SPI2	Full-Duplex Master	SPI2_MISO	PB14
+SPI2	Full-Duplex Master	SPI2_MOSI	PB15
+SPI2	Full-Duplex Master	SPI2_SCK	PB13
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	TIM2	SYS_VS_tim2	VP_SYS_VS_tim2
+TIM1	External Clock Mode 1	TIM1_VS_ControllerModeClock	VP_TIM1_VS_ControllerModeClock
+TIM1	TI1_ED	TIM1_CH1	PA8
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PD0-OSC_IN	GPIO_Output	
+10	PA0-WKUP	GPIO_Output	
+11	PA1	GPIO_Output	
+12	PA2	GPIO_Output	
+13	PA3	GPIO_Output	
+14	PA4	DAC_OUT1	
+15	PA5	DAC_OUT2	
+16	PA6	GPIO_Output	
+17	PA7	GPIO_Output	
+18	PB0	GPIO_Output	
+19	PB1	GPIO_Output	
+20	PB2	GPIO_Input	
+21	PB10	GPIO_Input	
+22	PB11	GPIO_Input	
+26	PB13	SPI2_SCK	
+27	PB14	SPI2_MISO	
+28	PB15	SPI2_MOSI	
+29	PA8	TIM1_CH1	
+30	PA9	USART1_TX	
+31	PA10	USART1_RX	
+32	PA11	GPIO_Output	
+33	PA12	GPIO_Output	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+39	PB3	GPIO_Output	
+45	PB8	GPIO_Input	
+46	PB9	GPIO_Input	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : jcmaxx33-mr.Li
+Project Folder : C:\Users\Administrator\STM32Cube\jcmaxx33-mr.Li
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F1 V1.8.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
